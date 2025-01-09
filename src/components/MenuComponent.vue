@@ -3,16 +3,16 @@
         <div class="container mx-auto flex items-center justify-between py-4 px-6">
             <!-- Logo/Brand -->
             <div class="text-lg font-bold">
-                <a href="#" class="hover:text-gray-400">SilentGuard</a>
+                <a href="/" class="hover:text-gray-400">SilentGuard</a>
             </div>
             <!-- Navigation Menu -->
             <nav class="hidden sm:flex space-x-6 ml-auto">
-                <a href="#" class="hover:text-gray-400">Conseils</a>
+                <a href="/#doc-choice" class="hover:text-gray-400">Conseils</a>
             </nav>
             <!-- Button -->
             <div class="hidden sm:block ml-4">
                 <a
-                    href="#"
+                    href="/#search-choice"
                     class="border border-white text-white px-2 py-2 rounded hover:bg-white hover:text-black transition"
                 >
                     Traquer des données
@@ -46,9 +46,9 @@
             :class="{'hidden': !isMobileMenuVisible, 'block': isMobileMenuVisible}"
             class="md:hidden bg-gray-700 text-white space-y-2 pt-4 pb-8 px-6 bg-gradient-silentguard"
         >
-            <a href="#" class="block hover:text-gray-400 mb-4">Conseils</a>
+            <a href="/#doc-choice" class="block hover:text-gray-400 mb-4">Conseils</a>
             <a
-            href="#"
+            href="/#search-choice"
             class="border border-white text-white px-2 py-2 my-4 rounded hover:bg-white hover:text-black transition"
             >
             Traquer des données

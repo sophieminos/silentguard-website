@@ -1,17 +1,33 @@
 <template>
-  <HeaderComponent/>
-  <HomeComponent/>
+  <div id="app">
+    <BaseLayout>
+    <!-- header -->
+    <template #header>
+      <MenuComponent />
+    </template>
+    
+    <!-- Contenu du slot par défaut -->
+    <router-view></router-view>
+
+    <!-- Contenu du slot "footer" -->
+    <template #footer>
+      <FooterComponent />
+    </template>
+  </BaseLayout>
+  </div>
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue'
-import HomeComponent from './components/HomeComponent.vue'
+import BaseLayout from '@/BaseLayout.vue'
+import MenuComponent from "@/components/MenuComponent.vue"
+import FooterComponent from '@/components/FooterComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HomeComponent,
-    HeaderComponent
+    BaseLayout,
+    MenuComponent,
+    FooterComponent,
   }
 }
 </script>
@@ -27,13 +43,6 @@ export default {
   margin-top: 60px;
 }
 */
-#app {
-  background-image: url("./assets/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  padding-bottom: 100px;
-}
 .bg-gradient-silentguard {
   background: rgb(10,22,26);
   background: linear-gradient(90deg, rgba(10,22,26,1) 0%, rgba(51,110,128,1) 100%);
