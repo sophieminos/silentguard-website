@@ -59,6 +59,9 @@ export default {
 .text-midblue-silentguard {
   color: rgba(29,62,73,1);
 }
+.text-lightblue-silentguard {
+  color: rgba(51,110,128,1);
+}
 
 thead {
   background-color: rgba(29,62,73,1);

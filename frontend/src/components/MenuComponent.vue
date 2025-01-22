@@ -2,21 +2,23 @@
     <div class="bg-gradient-silentguard text-white">
         <div class="container mx-auto flex items-center justify-between py-4 px-6">
             <!-- Logo/Brand -->
-            <div class="text-lg font-bold">
-                <a href="/" class="hover:text-gray-400">SilentGuard</a>
+            <div class="text-lg font-bold flex items-center space-x-2">
+                <a href="/" class="hover:text-gray-400 flex items-center space-x-2">
+                    <img src="logo.png" alt="SilentGuard Logo" class="inline-block" style="width: 30px; height: auto;" />
+                    <span>SilentGuard</span>
+                </a>
             </div>
             <!-- Navigation Menu -->
             <nav class="hidden sm:flex space-x-6 ml-auto">
-                <a href="/#doc-choice" class="hover:text-gray-400">Conseils</a>
+                <router-link to="/doc-individuals" class="hover:text-gray-400">Conseils</router-link>
             </nav>
             <!-- Button -->
             <div class="hidden sm:block ml-4">
-                <a
-                    href="/#search-choice"
+               <router-link to="/fast-search"
                     class="border border-white text-white px-2 py-2 rounded hover:bg-white hover:text-black transition"
                 >
                     Traquer des données
-                </a>
+                </router-link>
             </div>
 
             <!-- Mobile Menu Toggle -->
@@ -46,13 +48,12 @@
             :class="{'hidden': !isMobileMenuVisible, 'block': isMobileMenuVisible}"
             class="md:hidden bg-gray-700 text-white space-y-2 pt-4 pb-8 px-6 bg-gradient-silentguard"
         >
-            <a href="/#doc-choice" class="block hover:text-gray-400 mb-4">Conseils</a>
-            <a
-            href="/#search-choice"
+            <router-link to="/doc-individuals" class="block hover:text-gray-400 mb-4">Conseils</router-link>
+            <router-link to="/fast-search"
             class="border border-white text-white px-2 py-2 my-4 rounded hover:bg-white hover:text-black transition"
             >
             Traquer des données
-            </a>
+            </router-link>
         </div>
     </div>
 </template>

@@ -13,8 +13,8 @@
                 </tr>
 
                 <tr v-for="(item, index) in results" :key="index" class="hover:bg-gray-100">
-                    <td class="px-4 py-2">{{ index }}</td>
-                    <td class="px-4 py-2">{{ item }}</td>
+                    <td class="px-4 py-2">{{ item[0] }}</td>
+                    <td class="px-4 py-2">{{ item[1] }}</td>
                 </tr>
             </tbody>
         </table>
