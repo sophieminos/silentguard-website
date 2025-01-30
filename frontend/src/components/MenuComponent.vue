@@ -14,7 +14,7 @@
             </nav>
             <!-- Button -->
             <div class="hidden sm:block ml-4">
-               <router-link to="/fast-search"
+               <router-link to="/search"
                     class="border border-white text-white px-2 py-2 rounded hover:bg-white hover:text-black transition"
                 >
                     Traquer des données
@@ -49,7 +49,7 @@
             class="md:hidden bg-gray-700 text-white space-y-2 pt-4 pb-8 px-6 bg-gradient-silentguard"
         >
             <router-link to="/doc-individuals" class="block hover:text-gray-400 mb-4">Conseils</router-link>
-            <router-link to="/fast-search"
+            <router-link to="/search"
             class="border border-white text-white px-2 py-2 my-4 rounded hover:bg-white hover:text-black transition"
             >
             Traquer des données

@@ -1,4 +1,4 @@
-# silentguard-website
+# Frontend
 
 ## Project setup
 ```

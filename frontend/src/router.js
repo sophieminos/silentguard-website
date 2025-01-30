@@ -2,8 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 
 // Importer vos composants
 import HomeComponent from './pages/HomePage.vue';
-import AdvancedSearchPage from './pages/AdvancedSearchPage.vue';
-import FastSearchPage from './pages/FastSearchPage.vue';
+import SearchPage from './pages/SearchPage.vue';
 import DocOrganisationsPage from './pages/DocOrganisationsPage.vue';
 import DocIndividualsPage from './pages/DocIndividualsPage.vue';
 
@@ -15,14 +14,9 @@ const routes = [
     component: HomeComponent,
   },
   {
-    path: '/fast-search',
+    path: '/search',
     name: 'Recherche rapide',
-    component: FastSearchPage,
-  },
-  {
-    path: '/advanced-search',
-    name: 'Recherche avancée',
-    component: AdvancedSearchPage,
+    component: SearchPage,
   },
   {
     path: '/doc-organisations',
