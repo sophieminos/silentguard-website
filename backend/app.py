@@ -1,40 +1,24 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+from search_somebody_like import search_somebody_like
 
 app = Flask(__name__)
 
-@app.route('/api/fast-search/')
+@app.route('/api/search/')
 def fast_search():
-    search_result = {
-        "prénom": "Melon",
-        "nom": "Husk",
-        "email": "melon.husk@gamil.com",
-        "addresse": "11 rue des petits pois, 12345 Paradis",
-        "tel": "+33 123456578"
-    }
+    result = {}
+    first_name = request.args.get('first_name');
+    last_name = request.args.get('last_name');
+    pseudo = request.args.get('pseudo');
+    email = request.args.get('email');
+    result = search_somebody_like(first_name, last_name, pseudo, email)
+    
+    if result:
+        search_result = result
+ 
     return jsonify({
         "type": "success",
         "search_result": search_result
     }), 200
-
-@app.route('/api/advanced-search/')
-def advanced_search():
-    search_result = {
-        "prénom": "Melon",
-        "nom": "Husk",
-        "email": "melon.husk@gamil.com",
-        "addresse": "11 rue des petits pois, 12345 Paradis",
-        "tel": "+33 123456578",
-        "company": "Twitter, 'the' cage aux fauves humaine"
-    }
-    return jsonify({
-        "type": "success",
-        "search_result": search_result
-    }), 200
-
-# Exemple d'autre route
-@app.route('/api/sample')
-def hello():
-    return jsonify({"message": "Sample!"}), 200
 
 if __name__ == '__main__':
     app.run(debug=True)
