@@ -5,6 +5,7 @@ import HomeComponent from './pages/HomePage.vue';
 import SearchPage from './pages/SearchPage.vue';
 import DocOrganisationsPage from './pages/DocOrganisationsPage.vue';
 import DocIndividualsPage from './pages/DocIndividualsPage.vue';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage.vue';
 
 // Définir les routes
 const routes = [
@@ -27,6 +28,11 @@ const routes = [
     path: '/doc-individuals',
     name: 'Conseils pour les particuliers',
     component: DocIndividualsPage,
+  },
+  {
+    path: '/privacy-police',
+    name: 'Politique de confidentialité',
+    component: PrivacyPolicyPage,
   },
 ];
 
