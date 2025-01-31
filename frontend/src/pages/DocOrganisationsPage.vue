@@ -4,9 +4,9 @@
             Le guide de base de la cybersécurité pour les professionnels par SilentGuard
         </h1>
         <div class="flex justify-center gap-4 mb-4">
-            <div @click="downloadFile('Le guide de base de la cybersécurité pour les professionnels par SilentGuard.pdf')" class="cursor-pointer border text-center bg-midblue-silentguard text-white rounded hover:bg-darkblue-silentguard transition px-2 py-2">Télécharger</div>
+            <a href="/doc_organisations.pdf" download class="cursor-pointer border text-center bg-midblue-silentguard text-white rounded hover:bg-darkblue-silentguard transition px-2 py-2">Télécharger</a>
         </div>
-        <div class="flex justify-center gap-4">
+        <div class="flex justify-center gap-4 flex-wrap">
             <span>Vous êtes un particulier ?</span>
             <router-link to="/doc-individuals" class="text-lightblue-silentguard text-center underline">
                 ⇒ Conseils pour les particuliers
@@ -36,8 +36,8 @@
         <p class="mb-4">
             Pour mesurer ces risques, il faut suivre différentes étapes. D’abord, les différentes ressources doivent être identifiées, et leur priorité doit être définie. Les ressources avec la priorité la plus importante sont celles qui impliquent le plus de risques si elles sont perdues, exposées ou encore endommagées. Il faut ensuite identifier les vulnérabilités, c’est-à-dire les différents points faibles des systèmes qui permettraient à quelqu’un de s’infiltrer. Ensuite, la probabilité des potentiels incidents de sécurité est à évaluer. L’impact de la menace, ie les dommages qui peuvent être causés, doivent être calculés, et il en est de même pour le risque. Finalement, les différentes corrections à apporter au système de cybersécurité actuel sont à planifier.
         </p>
-        <img :src="`/organisations-1.png`" class="w-1/3 mx-auto" />
-        <legend class="italic text-center mb-4">Graphique de la defense-in-depth</legend>
+        <img :src="`/organisations-1.png`" class="md:w-1/3 sm:w-100 mx-auto" />
+        <div class="italic text-center mb-4">Graphique de la defense-in-depth</div>
         
         <h2 class="text-midblue-silentguard my-4 font-bold">c. Les éléments à mettre en place au sein de l’entreprise en elle-même</h2>
         <p class="mb-4">
@@ -46,8 +46,8 @@
         <p class="mb-4">
             L’antivirus a pour fonction de rechercher et de signaler les activités suspectes sur le système. Les contrôles de sécurité du réseau comprennent les pare-feu et des systèmes de protection contre les intrusions, qui permettent d’identifier les différentes menaces pour la sécurité, mais aussi de les bloquer à partir des règles de sécurité établies par l’entreprise. Les solutions d’intégrité des données examinent les adresses IP afin de déterminer si la source des fichiers reçus est connue et de confiance. Les analyses comportementales permettent une analyse du comportement des fichiers et des réseaux en utilisant comme standard des comportements “normaux” prédéfinis par l’entreprise, pour pouvoir envoyer des alertes, et/ou effectuer des actions automatiquement pour bloquer la violation du système informatique, ou encore empêcher de la poursuivre. Enfin, les stratégies et procédures sont celles de gestion des risques, de gestion de la chaîne logistique, de réponses aux incidents, …
         </p>
-        <img :src="`/organisations-2.png`" class="w-1/3 mx-auto" />
-        <legend class="italic text-center mb-4">Tableau du risque en fonction de l'impact et de la possibilité que ça arrive</legend>
+        <img :src="`/organisations-2.png`" class="md:w-1/3 sm:w-100 mx-auto" />
+        <div class="italic text-center mb-4">Tableau du risque en fonction de l'impact et de la possibilité que ça arrive</div>
         <p class="mb-4">
             Mais comment mettre en œuvre cette version de la cybersécurité ? Après tout, le cybercrime subit des changements constants, il faut donc rester sur ses gardes, et mettre à jour les mesures de sécurité régulièrement. Pour se faire, l’entreprise a besoin de suivre une approche systématique. Il faut commencer par analyser les risques, ce qui implique de rester au courant des risques critiques qui peuvent affecter l’entreprise, et donc d’intervenir de la bonne façon pour pouvoir diminuer l’impact potentiel de ces risques. Ensuite, il est nécessaire de faire l’inventaire des ressources, et d’en effectuer la gestion, pour savoir ce que l’entreprise à, pour savoir ce qui est risqué. L’inventaire à effectuer ensuite est celui des vulnérabilités, ce qui permet de savoir quels sont les points faibles, pour pouvoir y faire attention. Suivant cet inventaire, il est nécessaire de déployer la gestion des accès et des identités, pour pouvoir contrôler l’accès aux différents services, aux systèmes, et aux données. Sécuriser ces données est l’étape suivante, car l’ensemble des données doivent être protégées des accès et des utilisations non autorisés. L’étape suivante est la gestion des incidents, c’est-à-dire bien s’occuper de réduire l’impact des différents accidents. Après, vient la sécurité de la chaîne logistique, où on identifie les potentiels risques des réseaux tiers, comme les différents sous-traitants. Enfin, il faut former les différents salariés, leur apprendre la bonne conduite concernant la cybersécurité.
         </p>
@@ -123,17 +123,5 @@
     </div>
 </template>
 <script>
-export default {
-  methods: {
-    downloadFile(file) {
-      const url = "/"+file;
-      const link = document.createElement("a");
-      link.href = url;
-      // link.setAttribute("download", file);
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
-  }
-};
+//Le guide de base de la cybersécurité pour les professionnels par SilentGuard
 </script>
