@@ -18,7 +18,7 @@
             Nous allons voir ici de manière simple et intuitive comment nous allons pouvoir renforcer votre sécurité en ligne. Dans ce livret nous allons donc aborder des conseils directement liés à la cyber sécurité en générale et ensuite à la préservation de votre vie privée numérique. Bonne lecture !             En 2021, le cybercrime a coûté 6 000 milliards de dollars américains, un coût qui va passer à 10 500 milliards de dollars vers 2025, avec un risque d’être attaqué qui augmente de plus en plus également. La mise en place d’un système de cybersécurité solide est donc vitale.
         </p>
         <p class="mb-4">
-            Avant d’aller plus loin. Nous allons parler de divers produits, solutions ou marques. Nous ne sommes affiliés à aucune compagnie et nous faisons nos recommendation via des tests, ainsi que des retours utilisateurs et professionnels. 
+            Avant d’aller plus loin. Nous allons parler de divers produits, solutions ou marques. Nous ne sommes affiliés à aucune compagnie et nous faisons nos recommendations via des tests, ainsi que des retours utilisateurs et professionnels. 
         </p>
 
         <h1 class="text-midblue-silentguard text-center my-8 font-bold">1. La cybersécurité et ses outils</h1>
@@ -28,7 +28,7 @@
 
         <h2 class="text-midblue-silentguard my-4 font-bold">a. Houston y a-t-il un problème ? (les données qui ont déjà “fuité”)</h2>
         <p class="mb-4">
-            Sans le savoir certaines de vos informations ont peut être déjà “leaké” (la base de données d’une entreprise qui possédait vos données s’est fait piraté et volé ces données) pour le savoir rendez-vous sur le site <a href="https://haveibeenpwned.com/" target="_blank" class="underline text-midblue-silentguard">I been pawnd ?</a> et entrer votre mail sur la page principale. Si le résultat est vert tout va bien ! 
+            Sans le savoir certaines de vos informations ont peut-être déjà “leaké” (la base de données d’une entreprise qui possédait vos données s’est fait piraté et volé ces données) pour le savoir rendez-vous sur le site <a href="https://haveibeenpwned.com/" target="_blank" class="underline text-midblue-silentguard">I been pawnd ?</a> et entrer votre mail sur la page principale. Si le résultat est vert tout va bien ! 
         </p>
         <p class="mb-4">
             Si en revanche le résultat est négatif, il faut alors directement prendre les mesures nécessaires en fonction des informations qui ont fuité, le mieux reste de mettre à jour les informations de connexions de la plateforme ciblée, et de vérifier les autres données (comme l’adresse mail !). 
@@ -124,10 +124,37 @@
 
         <h1 class="text-midblue-silentguard text-center my-8 font-bold">2. La protection de sa vie privée</h1>
         <p class="mb-4">
-            Comment protéger sa vie privée dans le plus grand espace de communication jamais créé par l’homme ? Vaste sujet ! Nous allons commencer simplement par vous dire qu’il n’est pas vraiment possible de complètement “disparaître d’internet”. Même si vous n’y avez jamais mis les pieds, vous avez des traces sur le net. Mais ce que nous allons faire ici c’est vous montrer comment par des gestes simples limiter au maximum votre <a href="https://www.malwarebytes.com/fr/cybersecurity/basics/digital-footprint" target="_blank" class="underline text-midblue-silentguard">empreinte numérique</a>. Pour qu’une personne lambda, un attaquant ou une entreprise en sache le moins possible. 
+            Comment protéger sa vie privée dans le plus grand espace de communication jamais créé par l’homme ? Vaste sujet ! Nous allons commencer simplement par vous dire qu’il n’est pas vraiment possible de complètement “disparaître d’internet”. Même si vous n’y avez jamais mis les pieds, vous avez des traces sur le net. Mais ce que nous allons faire ici, c’est vous montrer comment, par des gestes simples, limiter au maximum votre <a href="https://www.malwarebytes.com/fr/cybersecurity/basics/digital-footprint" target="_blank" class="underline text-midblue-silentguard">empreinte numérique</a>. Pour qu’une personne lambda, un attaquant ou une entreprise en sache le moins possible. 
         </p>
 
-        <h2 class="text-midblue-silentguard my-4 font-bold">a. Quels navigateur et moteur de recherche pour surfer sur le net ?</h2>
+
+        <h2 class="text-midblue-silentguard my-4 font-bold">a. Comment faire disparaître nos données en ligne ?</h2>
+        <p class="mb-4">
+            Comme nous l’avons dit, nous générons des données lorsque nous sommes en ligne, et les data brokers (les entreprises qui conservent nos données) les gardent comme ressource à utiliser. Il existe une manière de forcer ces géants à supprimer vos données : la voie légale ! Si vous en faites la demande, un data broker est normalement obligé de supprimer vos informations.
+        </p>
+        <p class="mb-4">
+            <a href="https://duckduckgo.com" target="_blank" class="underline text-midblue-silentguard">PrivacyRight</a> possède une liste des emails des data brokers à contacter. Mais que mettre dans le mail ? La CNIL propose des modèles d’emails pré-rédigés pour vous aider. <a href="https://www.cnil.fr/fr/modele/courrier/supprimer-des-donnees-personnelles" target="_blank" class="underline text-midblue-silentguard">Voici celui destiné à la suppression des données</a>.
+        </p>
+        <p class="mb-4">
+            Attention toutefois, en fonction de la localisation et de la politique de l’entreprise, il peut être compliqué de forcer la suppression, mais c’est toujours une tentative à envisager. 
+        </p>
+
+        <h2 class="text-midblue-silentguard my-4 font-bold">b. Comment protéger ses comptes en ligne ?</h2>
+        <p class="mb-4">
+            Nous pouvons, sans le vouloir, laisser des informations visibles sur internet, alors que quelques actions simples peuvent nous protéger. Prenons l’exemple de Strava, un "réseau social pour sportifs" : 
+        </p>
+        <p class="mb-4">
+            Par défaut, un compte Strava est public. Tout le monde peut voir toutes les activités du compte dans les moindres détails.
+        </p>
+        <p class="mb-4">
+            Pour limiter cela, il faut, comme pour toutes les applications, aller dans les paramètres, puis dans l’onglet confidentialité.
+        </p>
+        <img :src="`/individuals-12.png`" class="md:w-1/2 sm:w-100 mx-auto mb-4" />
+        <p class="mb-4">
+            On peut voir ici une page avec une bonne confidentialité, puisque seules les personnes dont on a accepté l’abonnement peuvent voir nos activités. Ce type de paramètre existe sur la plupart des réseaux sociaux et doit être activé pour renforcer votre vie privée, tout en continuant à profiter de ces plateformes ! 
+        </p>
+
+        <h2 class="text-midblue-silentguard my-4 font-bold">c. Quels navigateur et moteur de recherche pour surfer sur le net ?</h2>
         <p class="mb-4">
             Commençons par l’interface qui vous permet d’accéder au web. Ici il faut bien différencier le navigateur et le moteur de recherche. Le navigateur c’est l’application qui va être installée sur votre ordinateur, le support. Votre navigateur actuel est probablement Chrome comme 60% des français. 
         </p>
