@@ -15,7 +15,6 @@ def build_query(infos, file_type=None):
 
 def search_google_api(query, api_key, cse_id):
     url = "https://www.googleapis.com/customsearch/v1"
-    all_results = []
     start_index = 1
     max_results = 10  # Nombre maximum de résultats retournés
     links = {}
