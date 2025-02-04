@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-4 px-6">
+    <div class="container mx-auto py-4 px-6 m-w-100" style="overflow-x: scroll;">
         <table id="table-results" class="min-w-full border-separate border-spacing-0 rounded-md overflow-hidden border text-center lg:text-base md:text-base text-xs">
             <thead class="text-white">
                 <tr>

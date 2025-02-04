@@ -48,13 +48,15 @@ export default {
             $('#loader').show();
             this.results = [];
             /*
+            // tests
             this.results = [
-                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22"],
-                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22"],
-                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22"],
+                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22"],
+                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22"],
+                ["lien avec pseudo 7", "https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22https://archive.org/details/@sophie_mi22"],
             ];
             console.log(this.results);
             */
+            // prod
             console.log($('#search-form').serialize());
             $.ajax({
                 url: 'https://silent-guard.fr/api/search/',
@@ -90,12 +92,6 @@ export default {
             $('.overlay').hide();
         });
 
-
-        
-
-
-
-        
     },
 };
 </script>
