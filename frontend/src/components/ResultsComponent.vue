@@ -1,10 +1,13 @@
 <template>
     <div class="container mx-auto py-4 px-6 m-w-100" style="overflow-x: scroll;">
+        <h1 class="text-midblue-silentguard text-center my-8 font-bold">
+            Résultats
+        </h1>
         <table id="table-results" class="min-w-full border-separate border-spacing-0 rounded-md overflow-hidden border text-center lg:text-base md:text-base text-xs">
             <thead class="text-white">
                 <tr>
                 <th class="px-4 py-2 w-48 font-normal">champ</th>
-                <th class="px-4 py-2 font-normal">valeur trouvée</th>
+                <th class="px-4 py-2 font-normal">valeur</th>
                 </tr>
             </thead>
             <tbody>
