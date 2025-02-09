@@ -1,13 +1,5 @@
 import requests, json
-
-def get_api_key_google():
-    return "AIzaSyA3TuIANXlP4ZOFS34bAE2q0BZyWeKdElE"
-
-def get_cse_id():
-    return "a04e3ae5247164828"
-
-def get_hibp_api_key():
-    return "884eb0be459744129082410c71ded598"
+from search_keys import get_api_key_google, get_cse_id, get_hibp_api_key
 
 def build_query(infos, file_type=None):
     base_query = f'"{infos["first_name"]} {infos["last_name"]}"'
