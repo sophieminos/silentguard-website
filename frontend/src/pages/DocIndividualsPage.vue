@@ -190,7 +190,7 @@
             Pour ce qui va être du moteur de recherche il n’y a qu’un moteur de recherche connu qui va se concentrer sur la protection de la vie privée : <a href="https://duckduckgo.com" target="_blank" class="underline text-midblue-silentguard">DuckDuckGo</a>. 
         </p>
 
-        <h2 class="text-midblue-silentguard my-4 font-bold">b. LE VPN, l’arme ultime ?</h2>
+        <h2 class="text-midblue-silentguard my-4 font-bold">d. LE VPN, l’arme ultime ?</h2>
         <p class="mb-4">
             Si vous êtes sur internet vous avez forcément entendu parler des VPN non ? Depuis 5 ans on les voit partout via des pubs qui nous promettent de bêtes réductions en se localisant partout dans le monde. Mais un VPN ce n'est pas du tout fait pour ça !
         </p>
@@ -209,18 +209,18 @@
             <li>Comme pour des solutions vus précédemment n'utilisez jamais de VPN gratuit ! Pour générer de l’argent il vendra vos données voire pire. Privilégiez une solution payante de qualité. Dans notre équipe nous utilisons uniquement le VPN de la firme suisse Proton qui nous donne entière satisfaction. Mais nous vous invitons à regarder d'autres offres qui pourraient être tout aussi intéressantes tout en restant vigilant. </li>
         </ul>
 
-        <h2 class="text-midblue-silentguard my-4 font-bold">c. La zone grise des bloqueurs de pubs</h2>
+        <h2 class="text-midblue-silentguard my-4 font-bold">e. La zone grise des bloqueurs de pubs</h2>
         <p class="mb-4">
             Les bloqueurs de publicité (ou AdBlocker) sont assez connus du grand public mais seulement <a href="https://backlinko.com/ad-blockers-users" target="_blank" class="underline text-midblue-silentguard">31% des français</a> l’utilisent. Et certaines personnes ne l'utilisent pas car elles ne savent pas si ce genre de dispositif est légal ou non. Les bloqueurs de publicité sont certes controversés mais l’année dernière un <a href="https://goodtech.info/une-liberte-retrouvee-avec-les-adblocks-actives/" target="_blank" class="underline text-midblue-silentguard">tribunal allemand a légitimé l’utilisation d’un bloqueur de publicité</a>. Cela crée donc une jurisprudence au niveau européen. Ne vous privez donc pas d’utiliser un bloqueur de publicité pour limiter les données générées par celle-ci et avoir une page web plus agréable !
         </p>
         <img :src="`/individuals-10.png`" class="md:w-1/4 sm:w-100 mx-auto mb-4" />
 
-        <h2 class="text-midblue-silentguard my-4 font-bold">d. Les extensions à utiliser</h2>
+        <h2 class="text-midblue-silentguard my-4 font-bold">f. Les extensions à utiliser</h2>
         <p class="mb-4">
             Nous allons ici parler de quelques <b>extensions</b> qui vont faciliter la protection de votre vie privée en ligne.
         </p>
         <p class="mb-4">
-            Premièrement comme dit dans la dernière section <b>un bloqueur de publicité est intéressant et légal à installer et à utiliser</b>. Nous vous conseillons <b>uBlockOrigin</b> une solution fiable et <b>open source</b> disponible sur de nombreux navigateurs.
+            Premièrement comme dit dans la dernière section <b>un bloqueur de publicité est intéressant et légal à installer et à utiliser</b>. Nous vous conseillons <a href="https://ublockorigin.com/fr" target="_blank" class="underline text-midblue-silentguard">uBlockOrigin</a> une solution fiable et <b>open source</b> disponible sur de nombreux navigateurs.
         </p>
         <p class="mb-4">
             Privacy Badger est une extension qui va vous permettre de bloquer automatiquement <b>les cookies et les traqueurs</b> qui vont retourner votre chemin sur le web. Il existe d’autres extensions pertinentes pour la sécurité mais nous vous recommandons de <b>ne pas trop en rajouter</b> non plus car cela risquerait de <b>nuire à votre expérience globale</b>.
